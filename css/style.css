@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+body{
+    font-family: 'Roboto Mono', monospace;
+    background-color: #f3f2ef;
+}
+
+.estrutura{
+    width: 50vmax;
+    margin: 10px auto;
+}
+
+.header{
+    border-bottom: 1px solid #000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 10px 5px 10px;
+    margin-bottom: 50px;
+}
+
+header h1{font-size: 3vmin; font-weight: 700;}
+
+ul li{
+    float: left;
+    margin: 0 10px;
+}
+
+.icon{font-size: 3.5vmin; transition: 0.5s;}
+.fa-linkedin{color: #0072b1;}
+.fa-instagram{color: #fb3958;}
+.fa-github{color: #000;}
+.fa-linkedin:hover{color: #ccc;}
+.fa-instagram:hover{color: #ccc;}
+.fa-github:hover{color: #ccc;}
+
+.conteudo{
+    /* border: 1px solid #000; */
+    height: auto;
+    padding: 25px;
+    background-color: rgba(255,255,255,0.7);
+    border-radius: 10px;
+}
+
+section h3{
+    text-align: left;
+    font-size: 2.5vmin;
+    font-weight: 700;
+    color: #d4102a;
+}
+
+.linha{
+    width: 250px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+section p{
+    text-align: justify;
+    line-height: 35px;
+    font-size: 2vmin;
+    margin-bottom: 20px;
+}
+
+section h4{
+    font-size: 2vmin;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
